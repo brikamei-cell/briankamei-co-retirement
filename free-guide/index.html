@@ -55,18 +55,22 @@
 .ml-embedded .ml-form-embedPermissionsContent p {color:#a9b2b0!important;font-size:12px!important}
 .ml-embedded .ml-error input {border-color:#e5a6a6!important}
 
+/* Header aligned with main site */
+.top{padding:20px 0;background:#0c121a;border-bottom:1px solid #293441}
+.top .brand{font-family:'Playfair Display',Georgia,serif;font-size:22px;font-weight:600;letter-spacing:.01em;text-decoration:none;color:#f4f0e8}
+.top .brand:hover,.top .back-home:hover{color:#d6b66e}
+.top .back-home{font-family:'DM Sans',Arial,sans-serif;font-size:13px;text-decoration:none;color:#b9c0c7;transition:color .2s}
+@media(max-width:480px){.top .brand{font-size:19px}.top .back-home{font-size:12px}}
 </style>
 <!-- MailerLite Universal: include once per page -->
-<script>(function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[]).push(arguments);},l=d.createElement(e),l.async=1,l.src=u,n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');ml('account','2354025');</script></head>
+<script>(function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[]).push(arguments);},l=d.createElement(e),l.async=1,l.src=u,n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');ml('account','2354025');</script><link rel="icon" type="image/png" href="/assets/favicon.png"/>
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png"/>
+</head>
 <body>
 <header class="top">
 <div class="container">
-<div class="brand">
-     BRIANKAMEI.CO
-    </div>
-<small>
-     MIND MECHANICS · COMPLIMENTARY GUIDE
-    </small>
+<a class="brand" href="/" aria-label="Brian Kamei homepage">BRIAN KAMEI</a>
+<a class="back-home" href="/">← Back to home</a>
 </div>
 </header>
 <main>
